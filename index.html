@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" type="image/png" href="img/SIBNAS.png" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>SIBNAS | modern photo editing app </title>
+
+    <script defer src="js/script.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+          <img
+          src="img/SIBNAS.png"
+          alt="SIBNAS logo"
+          class="nav__logo"
+          id="logo"
+          designer="Jonas"
+          data-version-number="3.0"
+          />
+          <ul class="nav__links">
+          <li class="nav__item">
+            <a class="nav__link" href="#section--1">Features</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--2">Operations</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--3">Testimonials</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link nav__link--btn btn--show-modal" href="#"
+              >Open account</a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header__title">
+        <!-- <h1 onclick="alert('HTML alert')"> -->
+        <h1>
+          Revolutionize
+          <!-- Green highlight effect -->
+          <span class="highlight">editing</span>
+          process with<br />
+          <span class="highlight">SIBNAS</span>
+        </h1>
+        <h4>Unleash your creative potential.</h4>
+        <button class="btn--text btn--scroll-to">Learn more &DownArrow;</button>
+        <img
+          src="img/landing.png"
+          class="header__img"
+          alt="SIBNAS items"
+        />
+      </div>
+    </header>
+
+    <section class="section" id="section--1">
+      <div class="section__title">
+        <h2 class="section__description">Features</h2>
+        <h3 class="section__header">
+          Everything you need in a modern photo editing app.
+        </h3>
+      </div>
+
+      <div class="features">
+        <img
+          src="img/digital-lazy.jpg"
+          data-src="img/digital.jpg"
+          alt="Computer"
+          class="features__img lazy-img"
+        />
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-monitor"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">Image editing</h5>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde alias
+            sint quos? Accusantium a fugiat porro reiciendis saepe quibusdam
+            debitis ducimus.
+          </p>
+        </div>
+
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-trending-up"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">Design tools</h5>
+          <p>
+            Nesciunt quos autem dolorum voluptates cum dolores dicta fuga
+            inventore ab? Nulla incidunt eius numquam sequi iste pariatur
+            quibusdam!
+          </p>
+        </div>
+        <img
+          src="img/grow-lazy.jpg"
+          data-src="img/grow.jpg"
+          alt="Plant"
+          class="features__img lazy-img"
+        />
+
+        <img
+          src="img/card-lazy.jpg"
+          data-src="img/card.jpg"
+          alt="Credit card"
+          class="features__img lazy-img"
+        />
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-credit-card"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">Customization</h5>
+          <p>
+            Quasi, fugit in cumque cupiditate reprehenderit debitis animi enim
+            eveniet consequatur odit quam quos possimus assumenda dicta fuga
+            inventore ab. 
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="section--2">
+      <div class="section__title">
+        <h2 class="section__description">Operations</h2>
+        <h3 class="section__header">
+          Everything as simple as possible, but no simpler.
+        </h3>
+      </div>
+
+      <div class="operations">
+        <div class="operations__tab-container">
+          <button
+            class="btn operations__tab operations__tab--1 operations__tab--active"
+            data-tab="1"
+          >
+            <span>01</span>Ease of use
+          </button>
+          <button class="btn operations__tab operations__tab--2" data-tab="2">
+            <span>02</span>Speed and performance
+          </button>
+          <button class="btn operations__tab operations__tab--3" data-tab="3">
+            <span>03</span>Security and privacy
+          </button>
+        </div>
+        <div
+          class="operations__content operations__content--1 operations__content--active"
+        >
+          <div class="operations__icon operations__icon--1">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-upload"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            "SIBNAS's user-friendly interface makes editing photos and designs a breeze, even for beginners."
+          </h5>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+        </div>
+
+        <div class="operations__content operations__content--2">
+          <div class="operations__icon operations__icon--2">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-home"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            Say goodbye to long wait times and slow rendering. 
+          <p>
+            Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+            cupidatat non proident, sunt in culpa qui officia deserunt mollit
+            anim id est laborum.
+          </p>
+        </div>
+        <div class="operations__content operations__content--3">
+          <div class="operations__icon operations__icon--3">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-user-x"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            "SIBNAS takes your privacy and security seriously.           </h5>
+          <p>
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+            officia deserunt mollit anim id est laborum. Ut enim ad minim
+            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="section--3">
+      <div class="section__title section__title--testimonials">
+        <h2 class="section__description">Not sure yet?</h2>
+        <h3 class="section__header">
+          Join the hundreds of users who have already simplified their lives with SIBNAS. 
+        </h3>
+      </div>
+
+      <div class="slider">
+        <div class="slide">
+            
+          <div class="testimonial">
+            <h5 class="testimonial__header">SIBNAS is easy to use and has all the features I need!</h5>
+            <blockquote class="testimonial__text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Accusantium quas quisquam non? Quas voluptate nulla minima
+              deleniti optio ullam nesciunt, numquam corporis et asperiores
+              laboriosam sunt, praesentium suscipit blanditiis. Necessitatibus
+              id alias reiciendis, perferendis facere pariatur dolore veniam
+              autem esse non voluptatem saepe provident nihil molestiae.
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="img/user-1.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">Samuel Rodriguez</h6>
+              <p class="testimonial__location">Spain, Madrid</p>
+            </address>
+          </div>
+        </div>
+        <div class="slide">
+            
+             <div class="testimonial">
+            <h5 class="testimonial__header">Editing doesn't have to be difficult. SIBNAS makes it easy!</h5>
+            <blockquote class="testimonial__text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Accusantium quas quisquam non? Quas voluptate nulla minima
+              deleniti optio ullam nesciunt, numquam corporis et asperiores
+              laboriosam sunt, praesentium suscipit blanditiis. Necessitatibus
+              id alias reiciendis, perferendis facere pariatur dolore veniam
+              autem esse non voluptatem saepe provident nihil molestiae.
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="img/Daco_55710.png" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">Tonny gerald</h6>
+              <p class="testimonial__location">USA, Los Angeles</p>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide">
+            
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+              SIBNAS has completely transformed the way I approach graphic design.
+            </h5>
+            <blockquote class="testimonial__text">
+              Quisquam itaque deserunt ullam, quia ea repellendus provident,
+              ducimus neque ipsam modi voluptatibus doloremque, corrupti
+              laborum. Incidunt numquam perferendis veritatis neque repellendus.
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo
+              deserunt exercitationem deleniti.
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="img/user-2.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">Klaus Wagner</h6>
+              <p class="testimonial__location">Germany, Berlin</p>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide">
+            
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+              "SIBNAS is one of the best editing apps I've ever used. 
+            </h5>
+            <blockquote class="testimonial__text">
+              Debitis, nihil sit minus suscipit magni aperiam vel tenetur
+              incidunt commodi architecto numquam omnis nulla autem,
+              necessitatibus blanditiis modi similique quidem. Odio aliquam
+              culpa dicta beatae quod maiores ipsa minus consequatur error sunt,
+              deleniti saepe aliquid quos inventore sequi. Necessitatibus id
+              alias reiciendis, perferendis facere.
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="img/user-3.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">Ethan Thompson</h6>
+              <p class="testimonial__location">Canada, Ottawa</p>
+            </address>
+          </div>
+        </div>
+
+        <button class="slider__btn slider__btn--left">&larr;</button>
+        <button class="slider__btn slider__btn--right">&rarr;</button>
+        <div class="dots"></div>
+      </div>
+    </section>
+
+    <section class="section section--sign-up">
+      <div class="section__title">
+        <h3 class="section__header">
+          "Start creating stunning Images today with SIBNAS
+        </h3>
+        <img width="300px" style="margin: -17px 0 -74px;" src="img/events.png" alt="">
+        
+      </div>
+      <button class="btn btn--show-modal">Open your free account today!</button>
+    </section>
+
+<!--FONT AWESOME-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!--GOOGLE FONTS-->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap" rel="stylesheet"> 
+</head>
+<body>
+<footer>
+  <div class="footer">
+    <div class="row">
+      <a href="#"><i class="fa fa-facebook"></i></a>
+      <a href="#"><i class="fa fa-instagram"></i></a>
+      <a href="#"><i class="fa fa-youtube"></i></a>
+      <a href="#"><i class="fa fa-twitter"></i></a>
+    </div>
+
+    <div class="row">
+      <ul>
+        <li><a class="link" href="#">Contact us</a></li>
+        <li><a class="link" href="#">Our Services</a></li>
+        <li><a class="link" href="#">Privacy Policy</a></li>
+        <li><a class="link" href="#">Terms & Conditions</a></li>
+        <li><a class="link" href="#">Career</a></li>
+      </ul>
+    </div>
+
+  <div class="row">
+    <p> Copyright © 2023  || Designed By: TAHA JARMOUNI </p>
+  </div>
+  </div>
+</footer>
+
+
+    <div class="modal hidden">
+      <button class="btn--close-modal">&times;</button>
+      <h2 class="modal__header">
+        Open your account <br />
+        in just <span class="highlight">5 minutes</span>
+      </h2>
+      <form class="modal__form">
+        <label>First Name</label>
+        <input type="text" />
+        <label>Last Name</label>
+        <input type="text" />
+        <label>Email Address</label>
+        <input type="email" />
+        <button class="btn">Next step &rarr;</button>
+      </form>
+    </div>
+    <div class="overlay hidden"></div>
+
+   </body>
+</html>
